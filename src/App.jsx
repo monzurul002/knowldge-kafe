@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="md:flex">
+      <main className="md:flex bg-gray-100 max-w-7xl mx-auto">
         <Blogs />
         <Bookmarks />
       </main>
